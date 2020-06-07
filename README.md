@@ -9,4 +9,6 @@ Two datasets were used for this task: -
 
 Grid Search was used to set find a suitable beta (or kl-weight) for beta-VAE. The range of grid search was \[20, 250\]. `Beta = 100` was found to provide the best fit.
 
-Since Quora question-pair dataset was not labelled, custom labelling of the data was created. The dataset was slpit into five classes based on the following keywords: \['How', 'Where', 'When', 'Why', None\].
+Since Quora question-pair dataset was not labelled, custom labelling of the data was created. The dataset was split into five classes based on the following keywords: \['How', 'Where', 'When', 'Why', None\].
+
+The performance of both were compared by plotting t-Distributed Stochastic Neighbor Embedding (t-SNE) plots for the encodings produced of the training dataset. t-SNE is basically a Dimensionality Reduction technique which makes it easier to visualize the results of a dataset having many features. 
