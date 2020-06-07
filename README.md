@@ -11,4 +11,7 @@ Grid Search was used to set find a suitable beta (or kl-weight) for beta-VAE. Th
 
 Since Quora question-pair dataset was not labelled, custom labelling of the data was created. The dataset was split into five classes based on the following keywords: \['How', 'Where', 'When', 'Why', None\].
 
-The performance of both were compared by plotting t-Distributed Stochastic Neighbor Embedding (t-SNE) plots for the encodings produced of the training dataset. t-SNE is basically a Dimensionality Reduction technique which makes it easier to visualize the results of a dataset having many features. 
+The performance of both were compared by plotting t-Distributed Stochastic Neighbor Embedding (t-SNE) plots for the encodings produced of the training dataset. t-SNE is basically a Dimensionality Reduction technique which makes it easier to visualize the results of a dataset having many features.
+Additionally, results on Quora dataset were also compared by generating the sentences from the encodings of the sentences used.
+
+
