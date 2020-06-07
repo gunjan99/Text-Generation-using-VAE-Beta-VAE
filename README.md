@@ -5,6 +5,8 @@ So, this project was an attempt to see and compare the preformance of beta-VAE a
 
 Two datasets were used for this task: -
   1) Quora question-pair dataset https://www.kaggle.com/c/quora-question-pairs/data (this dataset is not considered good for text generation as sentences are very vague)
-  2) Keras Moview review dataset with Sentiment Analysis.
+  2) Keras Movie review dataset with Sentiment Analysis.
 
-Grid Search was used to set find a suitable beta (or kl-weight) for beta-VAE. The range of grid search was \[20, 250\]. `Beta = 100` was found to provide the best fit 
+Grid Search was used to set find a suitable beta (or kl-weight) for beta-VAE. The range of grid search was \[20, 250\]. `Beta = 100` was found to provide the best fit.
+
+Since Quora question-pair dataset was not labelled, custom labelling of the data was created. The dataset was slpit into five classes based on the following keywords: \['How', 'Where', 'When', 'Why', None\].
