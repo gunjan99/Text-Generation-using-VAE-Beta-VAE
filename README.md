@@ -15,3 +15,4 @@ The performance of both were compared by plotting **t-Distributed Stochastic Nei
 Additionally, results on Quora dataset were also compared by generating the sentences from the encodings of the sentences used.
 
 
+In both cases results produced by VAE were better.
